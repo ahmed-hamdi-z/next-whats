@@ -32,6 +32,10 @@ const WhatsAppForm: React.FC = () => {
   };
 
   return (
+    <div
+    className="flex flex-col justify-center items-center w-full h-full min-h-screen bg-cover bg-no-repeat "
+    style={{ backgroundImage: "url('./images/bg.jpg')" }}
+  >
     <div className="flex flex-col justify-center items-center min-h-auto text-right">
       <div className="mt-5 mb-5 z-10">
         <img className="w-40 h-40" src="/images/logo.png" alt="Logo" />
@@ -80,6 +84,7 @@ const WhatsAppForm: React.FC = () => {
           إرسال إلى واتساب
         </button>
       </form>
+    </div>
     </div>
   );
 };
